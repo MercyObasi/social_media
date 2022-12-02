@@ -93,7 +93,7 @@ main{
 
 .section-wrapper{
     position: relative;
-    width: 50%;
+    width: 60%;
     display: flex;
     top: 9vh;
     margin: auto;
@@ -324,4 +324,101 @@ main{
 
 .comment-details a{
     text-decoration: none;
+}
+
+.section-2{
+    width: 100%;
+    color:rgb(142, 142, 142);
+}
+.section-2 .other-pics{
+    width: 46px;
+    height: 46px;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin: 10px;
+
+}
+
+.section-2 .profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-2 .profile > div{
+    display: flex;
+    align-items: center;
+}
+
+.profile .names{
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 5px;
+    line-height: 0.4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-2 .profile-pic{
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+.section-2 .second-name{
+    font-size: 12px;
+}
+
+.section-2 .first-name{
+    color: black;
+    font-weight: 400;
+}
+
+.suggestions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.suggestions p{
+    color: black;
+}
+
+.profile a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0C9AF6;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-section2{
+    margin-top: 20px;
+}
+.footer-section2 a{
+    width: 100%;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color:rgb(197, 196, 196);
+
+}
+
+.footer-section2 a:hover{
+    text-decoration: underline;
+}
+
+.footer-section2 .descriptions p{
+    display: inline;
+    line-height: 1.5;
+}
+
+.footer-section2 > p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(197, 196, 196);
 }
